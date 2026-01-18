@@ -37,7 +37,7 @@ const TodoForm = () => {
 		>
 			<input
 				type="text"
-				placeholder="Введите задачу"
+				placeholder="Введите"
 				{...register('title')}
 				className={styles.input}
 			/>
