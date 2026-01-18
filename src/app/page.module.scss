@@ -1,0 +1,22 @@
+.container {
+	background: rgb(10, 1, 5); // можешь оставить или изменить цвет
+	display: flex;
+	flex-direction: column; // ← добавь это!
+	align-items: center; // оставь (центрирует содержимое по горизонтали)
+	justify-content: flex-start; // ← измени на flex-start
+	height: 100vh;
+	padding: 40px 20px; // ← добавь отступы сверху
+	gap: 20px; // ← отступ между элементами
+}
+
+.activeTodos {
+	background-color: #bd3434;
+	border-radius: 50px;
+	padding: 20px;
+}
+
+.completedTodos {
+	background-color: #304fa7;
+	border-radius: 50px;
+	padding: 20px;
+}

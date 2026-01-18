@@ -1,0 +1,20 @@
+.item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+.title {
+	flex: 1;
+}
+
+.button {
+	padding: 5px 30px;
+	background-color: #754b4b;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
